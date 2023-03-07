@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Card, CardContent, CardMedia, Typography } from '@mui/material';
 import Grid2 from '@mui/material/Unstable_Grid2/Grid2';
 import image from '../images/image-qr-code.png';
+import Footer from './Footer';
 
 export default function MediaCard() {
 	return (
@@ -11,7 +12,6 @@ export default function MediaCard() {
 			justifyContent="center"
 			alignItems="center"
 			style={{ minHeight: '100vh' }}
-			sx={{ backgroundColor: 'qrCode.lightGray' }}
 		>
 			<Card
 				sx={{
@@ -62,6 +62,8 @@ export default function MediaCard() {
 					</Typography>
 				</CardContent>
 			</Card>
+
+			<Footer />
 		</Grid2>
 	);
 }
