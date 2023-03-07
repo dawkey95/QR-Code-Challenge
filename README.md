@@ -23,7 +23,7 @@ The task was to build out the project to the designs inside the `/design` folder
 
 ### Screenshot
 
-![](./images/Project-QR-Code.png)
+![](./screenshot/Project-QR-Code.png)
 
 ### Links
 
